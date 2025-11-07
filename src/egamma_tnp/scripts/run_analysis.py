@@ -90,8 +90,15 @@ def main():
 
     if args.port is not None and (not args.executor.startswith("tls://") and not args.executor.startswith("tcp://") and not args.executor.startswith("ucx://")):
         if not check_port(args.port):
+<<<<<<< HEAD
             logger.error(f"Port {args.port} is occupied in this node. Try another one.")
             raise ValueError(f"Port {args.port} is occupied in this node. Try another one.")
+=======
+            logger.info(f"Port {args.port} is occupied in this node. Finding new port.")
+            args.port = find_free_port()
+            #logger.error(f"Port {args.port} is occupied in this node. Try another one.")
+            #raise ValueError(f"Port {args.port} is occupied in this node. Try another one.")
+>>>>>>> 0d513b0 (A)
 
     if args.voms is not None:
         _x509_path = args.voms
@@ -259,3 +266,13 @@ def main():
 
 if __name__ == "__main__":
     main()
+<<<<<<< HEAD
+=======
+
+def find_free_port():
+    s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+    s.bind(("", 0))
+    port = s.getsockname()[1]
+    s.close()
+    return port
+>>>>>>> 0d513b0 (A)

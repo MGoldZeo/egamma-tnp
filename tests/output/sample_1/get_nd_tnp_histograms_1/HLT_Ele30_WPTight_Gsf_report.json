@@ -1,0 +1,23 @@
+[
+    {
+        "call_time": null, 
+        "duration": 12.343243613140658, 
+        "performance_counters": {
+            "num_requested_bytes": 1580988, 
+            "num_requests": 4, 
+            "num_requested_chunks": 87
+        }, 
+        "args": [
+            "'tests/samples/DYto2E.root'", 
+            "'Events'", 
+            "0", 
+            "1", 
+            "False"
+        ], 
+        "kwargs": [], 
+        "exception": null, 
+        "message": null, 
+        "fqdn": null, 
+        "hostname": null
+    }
+]

@@ -38,13 +38,41 @@ def test_cli():
 
     egamma_tnp.binning.set("el_eta_bins", [-2.5, -2.0, -1.566, -1.4442, -1.0, 0.0, 1.0, 1.4442, 1.566, 2.0, 2.5])
 
+<<<<<<< HEAD
+=======
+    # workflow = ElectronTagNProbeFromNanoAOD(
+    #     fileset=fileset,
+    #     filters={"HLT_Ele23_Ele12_CaloIdL_TrackIdL_IsoVL_DZ": "HLT_Ele23_Ele12_CaloIdL_TrackIdL_IsoVL_DZ", "cutBased >= 2": "cutBased >= 2"},
+    #     filterbit={"HLT_Ele23_Ele12_CaloIdL_TrackIdL_IsoVL_DZ": 1, "cutBased >= 2": None},
+    #     trigger_pt={"HLT_Ele23_Ele12_CaloIdL_TrackIdL_IsoVL_DZ": 12, "cutBased >= 2": None},
+    #     tags_pt_cut=23,
+    #     probes_pt_cut=12,
+    #     tags_abseta_cut=2.17,
+    #     probes_abseta_cut=2.5,
+    #     cutbased_id=None,
+    #     extra_zcands_mask=None,
+    #     extra_filter=None,
+    #     extra_filter_args={},
+    #     use_sc_eta=True,
+    #     use_sc_phi=False,
+    #     avoid_ecal_transition_tags=True,
+    #     avoid_ecal_transition_probes=False,
+    #     require_event_to_pass_hlt_filter=True,
+    # )
+
+>>>>>>> 0d513b0 (A)
     workflow = ElectronTagNProbeFromNanoAOD(
         fileset=fileset,
         filters={"HLT_Ele30_WPTight_Gsf": "HLT_Ele30_WPTight_Gsf", "cutBased >= 2": "cutBased >= 2"},
         filterbit={"HLT_Ele30_WPTight_Gsf": 1, "cutBased >= 2": None},
         trigger_pt={"HLT_Ele30_WPTight_Gsf": 30, "cutBased >= 2": None},
+<<<<<<< HEAD
         tags_pt_cut=35,
         probes_pt_cut=27,
+=======
+        tags_pt_cut=23,
+        probes_pt_cut=12,
+>>>>>>> 0d513b0 (A)
         tags_abseta_cut=2.17,
         probes_abseta_cut=2.5,
         cutbased_id=None,
@@ -280,4 +308,8 @@ def test_cli():
     )
     assert os.path.exists("tests/output/sample_2/get_nd_tnp_histograms_1/cutBased_gte_2_report.json")
 
+<<<<<<< HEAD
     os.system("rm -r tests/output")
+=======
+    #os.system("rm -r tests/output")
+>>>>>>> 0d513b0 (A)

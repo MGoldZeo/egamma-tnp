@@ -4,7 +4,11 @@ from functools import partial
 
 import dask_awkward as dak
 from coffea.dataset_tools import apply_to_fileset
+<<<<<<< HEAD
 
+=======
+from coffea.nanoevents import NanoEventsFactory, NanoAODSchema
+>>>>>>> 0d513b0 (A)
 
 class BaseTagNProbe:
     """Base class for Tag and Probe classes."""
@@ -164,7 +168,11 @@ class BaseTagNProbe:
         to_compute = apply_to_fileset(
             data_manipulation=data_manipulation,
             fileset=self.fileset,
+<<<<<<< HEAD
             schemaclass=self.schemaclass,
+=======
+            schemaclass=NanoAODSchema,
+>>>>>>> 0d513b0 (A)
             uproot_options=uproot_options,
         )
         if compute:

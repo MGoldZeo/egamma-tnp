@@ -1,0 +1,474 @@
+{
+    "sample/1": {
+        "files": {
+            "root://cmsxcache.hep.wisc.edu//store/data/Run2023B/EGamma0/NANOAOD/22Sep2023-v1/2520000/5937e9b3-9cd5-4471-8db3-08475922a752.root": {
+                "object_path": "Events",
+                "steps": [
+                    [
+                        0,
+                        103558
+                    ],
+                    [
+                        103558,
+                        207116
+                    ],
+                    [
+                        207116,
+                        310674
+                    ],
+                    [
+                        310674,
+                        414232
+                    ],
+                    [
+                        414232,
+                        517790
+                    ],
+                    [
+                        517790,
+                        621348
+                    ],
+                    [
+                        621348,
+                        724906
+                    ],
+                    [
+                        724906,
+                        813884
+                    ]
+                ],
+                "num_entries": 813884,
+                "uuid": "9d8f417c-697a-11ee-8029-c4a8935abeef"
+            },
+            "root://cmsxcache.hep.wisc.edu//store/data/Run2023B/EGamma0/NANOAOD/22Sep2023-v1/2520000/9b1c9304-5144-45e6-a225-aa9561a8b4f9.root": {
+                "object_path": "Events",
+                "steps": [
+                    [
+                        0,
+                        90317
+                    ]
+                ],
+                "num_entries": 90317,
+                "uuid": "0771da62-6932-11ee-baaa-e9803c0abeef"
+            }
+        }
+    },
+    "sample/2": {
+        "files": {
+            "root://cmsxcache.hep.wisc.edu//store/data/Run2023C/EGamma0/NANOAOD/22Sep2023_v2-v1/2520000/34470cc9-ef01-4ba4-af5b-fafad317b4a7.root": {
+                "object_path": "Events",
+                "steps": [
+                    [
+                        0,
+                        100594
+                    ],
+                    [
+                        100594,
+                        180561
+                    ]
+                ],
+                "num_entries": 180561,
+                "uuid": "8b4a45ee-69ba-11ee-ac84-08bfe183beef"
+            },
+            "root://cmsxcache.hep.wisc.edu//store/data/Run2023C/EGamma0/NANOAOD/22Sep2023_v2-v1/40000/027ff547-8bdc-496d-a77c-04ec87024c29.root": {
+                "object_path": "Events",
+                "steps": [
+                    [
+                        0,
+                        100074
+                    ],
+                    [
+                        100074,
+                        200148
+                    ],
+                    [
+                        200148,
+                        300222
+                    ],
+                    [
+                        300222,
+                        400296
+                    ],
+                    [
+                        400296,
+                        500370
+                    ],
+                    [
+                        500370,
+                        600444
+                    ],
+                    [
+                        600444,
+                        700518
+                    ],
+                    [
+                        700518,
+                        800592
+                    ],
+                    [
+                        800592,
+                        900666
+                    ],
+                    [
+                        900666,
+                        924253
+                    ]
+                ],
+                "num_entries": 924253,
+                "uuid": "cb27fd3e-5eb9-11ee-bca6-07a5a983beef"
+            }
+        }
+    },
+    "sample/3": {
+        "files": {
+            "root://cmsxcache.hep.wisc.edu//store/data/Run2023D/EGamma0/NANOAOD/22Sep2023_v1-v1/2530000/043fa9aa-b27b-4371-8363-287537de8dba.root": {
+                "object_path": "Events",
+                "steps": [
+                    [
+                        0,
+                        104715
+                    ],
+                    [
+                        104715,
+                        209430
+                    ],
+                    [
+                        209430,
+                        314145
+                    ],
+                    [
+                        314145,
+                        418860
+                    ],
+                    [
+                        418860,
+                        523575
+                    ],
+                    [
+                        523575,
+                        628290
+                    ],
+                    [
+                        628290,
+                        733005
+                    ],
+                    [
+                        733005,
+                        837720
+                    ],
+                    [
+                        837720,
+                        942435
+                    ],
+                    [
+                        942435,
+                        1047150
+                    ],
+                    [
+                        1047150,
+                        1151865
+                    ],
+                    [
+                        1151865,
+                        1241251
+                    ]
+                ],
+                "num_entries": 1241251,
+                "uuid": "12e865da-5e80-11ee-9ddf-09a5a983beef"
+            },
+            "root://cmsxcache.hep.wisc.edu//store/data/Run2023D/EGamma0/NANOAOD/22Sep2023_v1-v1/2530000/06879ec8-1ba8-4c93-8e3e-823b68fd95d7.root": {
+                "object_path": "Events",
+                "steps": [
+                    [
+                        0,
+                        100604
+                    ],
+                    [
+                        100604,
+                        201208
+                    ],
+                    [
+                        201208,
+                        301812
+                    ],
+                    [
+                        301812,
+                        402416
+                    ],
+                    [
+                        402416,
+                        503020
+                    ],
+                    [
+                        503020,
+                        603624
+                    ],
+                    [
+                        603624,
+                        704228
+                    ],
+                    [
+                        704228,
+                        804832
+                    ],
+                    [
+                        804832,
+                        905436
+                    ],
+                    [
+                        905436,
+                        1006040
+                    ],
+                    [
+                        1006040,
+                        1080043
+                    ]
+                ],
+                "num_entries": 1080043,
+                "uuid": "4a1ad06e-5edb-11ee-87a0-24bfe183beef"
+            }
+        }
+    },
+    "sample/4": {
+        "files": {
+            "root://cmsxcache.hep.wisc.edu//store/data/Run2023B/EGamma1/NANOAOD/22Sep2023-v1/2550000/b2e5602a-1618-46b2-9700-33720a87fed5.root": {
+                "object_path": "Events",
+                "steps": [
+                    [
+                        0,
+                        103259
+                    ],
+                    [
+                        103259,
+                        206518
+                    ],
+                    [
+                        206518,
+                        309777
+                    ],
+                    [
+                        309777,
+                        413036
+                    ],
+                    [
+                        413036,
+                        463190
+                    ]
+                ],
+                "num_entries": 463190,
+                "uuid": "6af57154-6d90-11ee-a28a-f40c0d0abeef"
+            },
+            "root://cmsxcache.hep.wisc.edu//store/data/Run2023B/EGamma1/NANOAOD/22Sep2023-v1/50000/038419f1-7984-41d6-bfbe-e12d4a883965.root": {
+                "object_path": "Events",
+                "steps": [
+                    [
+                        0,
+                        103870
+                    ],
+                    [
+                        103870,
+                        207740
+                    ],
+                    [
+                        207740,
+                        311610
+                    ],
+                    [
+                        311610,
+                        415480
+                    ],
+                    [
+                        415480,
+                        519350
+                    ],
+                    [
+                        519350,
+                        623220
+                    ],
+                    [
+                        623220,
+                        727090
+                    ],
+                    [
+                        727090,
+                        830960
+                    ],
+                    [
+                        830960,
+                        931198
+                    ]
+                ],
+                "num_entries": 931198,
+                "uuid": "6cb1d452-5dfe-11ee-a9fb-8aa9935abeef"
+            }
+        }
+    },
+    "sample/5": {
+        "files": {
+            "root://cmsxcache.hep.wisc.edu//store/data/Run2023C/EGamma1/NANOAOD/22Sep2023_v1-v1/2530000/08070e3a-6cfe-465d-b3a8-fd0be8870fc7.root": {
+                "object_path": "Events",
+                "steps": [
+                    [
+                        0,
+                        107002
+                    ],
+                    [
+                        107002,
+                        214004
+                    ],
+                    [
+                        214004,
+                        256409
+                    ]
+                ],
+                "num_entries": 256409,
+                "uuid": "fd6918c2-5ef6-11ee-b986-5a060d0abeef"
+            },
+            "root://cmsxcache.hep.wisc.edu//store/data/Run2023C/EGamma1/NANOAOD/22Sep2023_v1-v1/2530000/157dfaa0-202b-418a-8923-802fb569aa00.root": {
+                "object_path": "Events",
+                "steps": [
+                    [
+                        0,
+                        100854
+                    ],
+                    [
+                        100854,
+                        201708
+                    ],
+                    [
+                        201708,
+                        302562
+                    ],
+                    [
+                        302562,
+                        403416
+                    ],
+                    [
+                        403416,
+                        504270
+                    ],
+                    [
+                        504270,
+                        605124
+                    ],
+                    [
+                        605124,
+                        705978
+                    ],
+                    [
+                        705978,
+                        806664
+                    ]
+                ],
+                "num_entries": 806664,
+                "uuid": "86fe6fc2-5f17-11ee-b642-3dbde183beef"
+            }
+        }
+    },
+    "sample/6": {
+        "files": {
+            "root://cmsxcache.hep.wisc.edu//store/data/Run2023D/EGamma1/NANOAOD/22Sep2023_v1-v1/30000/0175e76d-e5db-4300-bb1a-646aab009e7f.root": {
+                "object_path": "Events",
+                "steps": [
+                    [
+                        0,
+                        105615
+                    ],
+                    [
+                        105615,
+                        211230
+                    ],
+                    [
+                        211230,
+                        316845
+                    ],
+                    [
+                        316845,
+                        422460
+                    ],
+                    [
+                        422460,
+                        528075
+                    ],
+                    [
+                        528075,
+                        633690
+                    ],
+                    [
+                        633690,
+                        739305
+                    ],
+                    [
+                        739305,
+                        844920
+                    ],
+                    [
+                        844920,
+                        893235
+                    ]
+                ],
+                "num_entries": 893235,
+                "uuid": "c7a721aa-5eb7-11ee-8d01-de0c0d0abeef"
+            },
+            "root://cmsxcache.hep.wisc.edu//store/data/Run2023D/EGamma1/NANOAOD/22Sep2023_v1-v1/30000/0d81d79e-1240-42c6-9dbc-3b10637d1d7b.root": {
+                "object_path": "Events",
+                "steps": [
+                    [
+                        0,
+                        104370
+                    ],
+                    [
+                        104370,
+                        208740
+                    ],
+                    [
+                        208740,
+                        313110
+                    ],
+                    [
+                        313110,
+                        417480
+                    ],
+                    [
+                        417480,
+                        521850
+                    ],
+                    [
+                        521850,
+                        626220
+                    ],
+                    [
+                        626220,
+                        730590
+                    ],
+                    [
+                        730590,
+                        834960
+                    ],
+                    [
+                        834960,
+                        939330
+                    ],
+                    [
+                        939330,
+                        1043700
+                    ],
+                    [
+                        1043700,
+                        1148070
+                    ],
+                    [
+                        1148070,
+                        1252440
+                    ],
+                    [
+                        1252440,
+                        1307348
+                    ]
+                ],
+                "num_entries": 1307348,
+                "uuid": "fb7b1b60-5e55-11ee-92ff-10cee183beef"
+            }
+        }
+    }
+}
