@@ -134,10 +134,10 @@ def test_cli():
     )
 
     to_compute = {
-        "get_tnp_arrays_1": get_tnp_arrays_1,
+        # "get_tnp_arrays_1": get_tnp_arrays_1,
         # "get_tnp_arrays_2": get_tnp_arrays_2,
         # "get_passing_and_failing_probes_1_hlt": get_passing_and_failing_probes_1_hlt,
-        # "get_1d_pt_eta_phi_tnp_histograms_1_hlt": get_1d_pt_eta_phi_tnp_histograms_1_hlt,
+        "get_1d_pt_eta_phi_tnp_histograms_1_hlt": get_1d_pt_eta_phi_tnp_histograms_1_hlt,
         # "get_nd_tnp_histograms_1_hlt": get_nd_tnp_histograms_1_hlt,
         # "get_nd_tnp_histograms_1_id": get_nd_tnp_histograms_1_id,
     }
