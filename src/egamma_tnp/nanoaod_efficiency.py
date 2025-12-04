@@ -167,6 +167,8 @@ class ElectronTagNProbeFromNanoAOD(BaseTagNProbe):
             events = events[mask]
 
         good_events = events[events.HLT.Ele30_WPTight_Gsf]
+        #good_events = events[events.HLT.Ele23_Ele12_CaloIdL_TrackIdL_IsoVL_DZ]
+        #good_events = events
 
         ij = dak.argcartesian([good_events.Electron, good_events.Electron])
         is_not_diag = ij["0"] != ij["1"]
@@ -296,7 +298,7 @@ class ElectronTagNProbeFromNanoAOD(BaseTagNProbe):
         eta_cond_tags = abs(zcands.tag.eta_to_use) < abseta_tags
         pt_cond_probes = zcands.probe.pt > pt_probes
         eta_cond_probes = abs(zcands.probe.eta_to_use) < abseta_probes
-        trig_matched_tag = ElectronTagNProbeFromNanoAOD._trigger_match(zcands.tag, trigobjs, 11, 30, 1)
+        trig_matched_tag = ElectronTagNProbeFromNanoAOD._trigger_match(zcands.tag, trigobjs, 11, 23, 1)
         zcands = zcands[trig_matched_tag & pt_cond_tags & pt_cond_probes & eta_cond_tags & eta_cond_probes]
         events_with_tags = dak.num(zcands.tag, axis=1) >= 1
         zcands = zcands[events_with_tags]
@@ -358,7 +360,6 @@ class ElectronTagNProbeFromNanoAOD(BaseTagNProbe):
         all_probe_events["pair_mass"] = (all_probe_events["el"] + all_probe_events["tag_Ele"]).mass
 
         return passing_locs, all_probe_events
-
 
 class PhotonTagNProbeFromNanoAOD(BaseTagNProbe):
     def __init__(
